@@ -81,6 +81,7 @@ p {
 .overlayList li {
   list-style-type: disclosure-closed !important;
   color: #5a5a5a !important;
+  line-height: 1.7 !important;
 }
 .card-body:hover .overlay {
   opacity: 1;
@@ -121,6 +122,7 @@ textarea {
   color: #000 !important; /* Text color for the hover state */
   background-color: #f4de1b !important; /* Background color for the hover state */
   border-color: #f4de1b !important; /* Border color for the hover state */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
 }
 .hoverBtn:hover #my-img {
   content: url("./arrow-right.svg");
