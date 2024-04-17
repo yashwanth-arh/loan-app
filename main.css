@@ -122,6 +122,9 @@ textarea {
   background-color: #f4de1b !important; /* Background color for the hover state */
   border-color: #f4de1b !important; /* Border color for the hover state */
 }
+.hoverBtn:hover #my-img {
+  content: url("./arrow-right.svg");
+}
 
 .btn-warning {
   color: #000 !important;
